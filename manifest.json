@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Bookmark Manager",
+  "description": "This extension will show all the saved bookmark",
+  "version": "1.0",
+  "background": {
+    "page": "bookmark.html"
+  },
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "bookmark.html",
+   "default_title": "Click here!"
+  },
+  "permissions": [
+   "activeTab",
+   "bookmarks",
+   "https://ajax.googleapis.com/"
+   ]
+}
